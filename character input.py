@@ -11,8 +11,6 @@ age = int(input("Please enter your age: "))
 
 today = datetime.datetime.now()
 
-
-#Bear in mind, the current year is 2020.
 print("Hi " + name + ", you will be 100 in the year " + str((int(today.year) - age) + 100) + ".")
 
 
